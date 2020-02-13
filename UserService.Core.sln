@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserService.Core", "UserService.Core\UserService.Core.csproj", "{4930DB53-53D6-4D6F-9EED-23B59ECF8B5B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Build", "Build", "{48D7F37F-0E93-46FA-B289-8F13E8616C63}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		gulpfile.js = gulpfile.js
+		nuget.config = nuget.config
+		package.json = package.json
+		README.md = README.md
+		ReleaseNotes.md = ReleaseNotes.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4930DB53-53D6-4D6F-9EED-23B59ECF8B5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4930DB53-53D6-4D6F-9EED-23B59ECF8B5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4930DB53-53D6-4D6F-9EED-23B59ECF8B5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4930DB53-53D6-4D6F-9EED-23B59ECF8B5B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9AD92CE6-B7E4-4C61-B2E2-7245B1AD32EE}
+	EndGlobalSection
+EndGlobal
