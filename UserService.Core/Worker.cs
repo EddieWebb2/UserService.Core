@@ -18,7 +18,7 @@ namespace UserService.Core
 
 
             // We dont need the environment switch anymore!
-            // when debugging this will automatically ruin in console mode, but when deployed will run as service! Cool
+            // when debugging this will automatically run in console mode, but when deployed will run as service! Cool
         }
 
         public override Task StartAsync(CancellationToken cancellationToken)
